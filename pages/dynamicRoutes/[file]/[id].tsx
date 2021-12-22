@@ -2,8 +2,12 @@ import { useRouter } from 'next/router';
 
 const Id = () => {
   const router = useRouter();
-  const { id } = router.query;
+  const { id, file } = router.query;
 
-  return <>{id}</>;
+  return (
+    <>
+      {id}/{file}
+    </>
+  );
 };
 export default Id;

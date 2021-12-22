@@ -1,7 +1,10 @@
+import Modal from '../../../components/modal';
+
 const ModalSample = () => {
   return (
     <>
-      <button>adsf</button>
+      <button>open</button>
+      <Modal></Modal>
     </>
   );
 };
