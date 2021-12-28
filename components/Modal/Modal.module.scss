@@ -1,0 +1,18 @@
+@import '../../styles/resources.scss';
+
+.modal-panel {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  background-color: $color-white;
+  border-radius: 8px;
+
+  > .text {
+    font-family: $font-util;
+    font-size: $font-size-body;
+  }
+}
+.close-button {
+  font-size: $font-size-button-regular;
+  padding: 12px 0;
+}

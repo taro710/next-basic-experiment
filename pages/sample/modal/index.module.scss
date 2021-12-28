@@ -1,0 +1,26 @@
+@import '../../../styles/resources.scss';
+
+.button-wrapper {
+  margin: 100px;
+
+  > .button {
+    padding: 12px 24px;
+    font-size: $font-size-button-regular;
+  }
+}
+
+.modal-wrapper {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: $color-black;
+  opacity: 0.8;
+
+  &.-openfalse {
+    display: none;
+  }
+}
