@@ -2,6 +2,11 @@ import React from 'react';
 import { useDnDSort } from '../../../hooks/useDnDSort';
 // import { render } from 'react-dom';
 
+/**
+ * 参考
+ * https://zenn.dev/uttk/articles/b90454baec68c8#usedndsort()を実装する
+ */
+
 type Style<T extends HTMLElement> = React.HTMLAttributes<T>['style'];
 
 const bodyStyle: Style<HTMLDivElement> = {
